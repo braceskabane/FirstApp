@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Gambar -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:id="@+id/imageViewHeroPhoto" />
+        </FrameLayout>
+
+        <!-- TextView -->
+        <TextView
+            style="@style/TextContent.HeadlineMedium.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/tvHeroName"
+            android:textSize="25sp" />
+
+        <!-- TextView -->
+        <TextView
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tvHeroDescription"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/gray"/>
+
+        <!-- TextView -->
+        <TextView
+            style="@style/TextContent.BodyMedium.Gray.MarginLeftRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:id="@+id/tvHeroStory" />
+
+        <!-- TextView -->
+        <TextView
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/gray"
+            android:text="In-Story Information" />
+
+        <!-- TableLayout -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+
+            <!-- TableRow -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <!-- TextView -->
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="16dp"
+                    android:text="Species"
+                    android:textColor="@color/gray"/>
+
+                <!-- TextView -->
+                <TextView
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:id="@+id/tvHeroSpecies"/>
+            </TableRow>
+
+            <!-- TableRow -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <!-- TextView -->
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="12sp"
+                    android:text="Height"
+                    android:textColor="@color/gray"/>
+
+                <!-- TextView -->
+                <TextView
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:id="@+id/tvHeroHeight" />
+            </TableRow>
+
+            <!-- TableRow -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <!-- TextView -->
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="12sp"
+                    android:text="Weight"
+                    android:textColor="@color/gray"/>
+
+                <!-- TextView -->
+                <TextView
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:id="@+id/tvHeroWeight" />
+            </TableRow>
+            <!-- TableRow -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <!-- TextView -->
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="12sp"
+                    android:text="Abilities"
+                    android:textColor="@color/gray"/>
+
+                <!-- TextView -->
+                <TextView
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:id="@+id/tvHeroAbilities" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <!-- TextView -->
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="12sp"
+                    android:text="Weapons"
+                    android:textColor="@color/gray"/>
+
+                <!-- TextView -->
+                <TextView
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:id="@+id/tvHeroWeapons" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <!-- TextView -->
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="12sp"
+                    android:text="Relation"
+                    android:textColor="@color/gray"/>
+
+                <!-- TextView -->
+                <TextView
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:id="@+id/tvHeroRelation" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+        </TableLayout>
+        <!-- TextView -->
+        <TextView
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="A long time ago"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:id="@+id/tvHeroLongStory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="12sp"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                app:cardCornerRadius="28dp"
+                app:cardPreventCornerOverlap="false"
+                android:layout_marginEnd="16dp">
+
+                <ImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/photoprofile"
+                    android:scaleType="centerCrop" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/text_name"
+                style="@style/TextContent.BodyMedium.Gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@id/card_view"
+                android:textColor="@color/gray"
+                android:text="Muhammad Daffa Fisabilillah" />
+
+            <Button
+                android:id="@+id/action_share"
+                style="@style/ButtonGeneral.SecondaryVariant"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_below="@id/text_name"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/card_view"
+                android:backgroundTint="@color/gray"
+                android:text="Share"
+                android:textSize="10sp"
+                android:onClick="shareButtonClick"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

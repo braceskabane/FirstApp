@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">META GAMEPLAY 2024</string>
+
+    <string name="heroes_name">Heroes Name</string>
+    <string name="description">Deskripsi</string>
+    <string name="story">Story</string>
+    <string-array name="data_name">
+        <item>Cecilion</item>
+        <item>Carmilla</item>
+        <item>Jhonson</item>
+        <item>Fanny</item>
+        <item>Ling</item>
+        <item>Yuzhong</item>
+        <item>Esmeralda</item>
+        <item>Guinevere</item>
+        <item>Lunox</item>
+        <item>Kagura</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Mage</item>
+        <item>Support/Tank</item>
+        <item>Tank/Support</item>
+        <item>Assasin</item>
+        <item>Assasin</item>
+        <item>Fighter</item>
+        <item>Mage/Tank</item>
+        <item>Fighter</item>
+        <item>Mage</item>
+        <item>Mage</item>
+    </string-array>
+    <string-array name="data_story">
+        <item>As a blood demon, Cecilion in love with human girl Carmilla, but cruel reality made Cecilion give up on their love.</item>
+        <item>As a human, Carmilla fell in love with Cecilion, who was a Blood Demon, but cruel reality separated them, Carmilla had already guessed the identity of Cecilion.</item>
+        <item>Johnson was originally from a planet called Varis, where he worked as a delivery driver.</item>
+        <item>Fanny is the younger sister of Tigreal, who grew up under the protection of her family and her elder brother since she was a child. </item>
+        <item>Swordsman with a slender body whose whereabouts are unpredictable. </item>
+        <item>A reincarnation of the Black Dragon, but Yu Zhong had no memory of the Black Dragon at first. </item>
+        <item>Born into a family of Agelta astrologers, she is the greatest astrologers on the Land of Dawn. </item>
+        <item>As the youngest daughter of one of the few noble households in the Land of Dawn, House Baroque, she studied at the Magic Academy since she was a child, and is extremely talented in magic.</item>
+        <item>Lunox was born with magical powers, and her dreamworld reflects and changes the real world. </item>
+        <item>Upon the Cadia Riverlands, there exists a mysterious profession called Onmyouji Master that uses the yin yang arts to control spirits and see into the future. </item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/cecilion_1</item>
+        <item>@drawable/carmila_2</item>
+        <item>@drawable/jhonson_3</item>
+        <item>@drawable/fanny_4</item>
+        <item>@drawable/ling_5</item>
+        <item>@drawable/yuzhong_6</item>
+        <item>@drawable/esmeralda_7</item>
+        <item>@drawable/guinevere_8</item>
+        <item>@drawable/lunox_9</item>
+        <item>@drawable/kagura_10</item>
+    </integer-array>
+
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="about">About</string>
+    <string name="text_email">a004d4ky4156@bangkit.academy</string>
+    <string name="text_name">Muhammad Daffa Fisabilillah</string>
+
+    <string name="button_back_to_menu"> Back </string>
+
+    <string name="Story">Story</string>
+    <string name="Tutorial">Tutorial</string>
+
+    <string name="youtube_url">https://www.youtube.com/@MobileLegends5v5MOBA</string>
+
+    <string-array name="data_fullname">
+        <item>Cecilion the Immortal</item>
+        <item>Carmilla the Shadow of Twilight</item>
+        <item>Johnson the Mustang</item>
+        <item>Fanny the Blade Dancer</item>
+        <item>Ling the Blade of Supremacy</item>
+        <item>Yu Zhong the Black Dragon</item>
+        <item>Esmeralda the Frost Witch</item>
+        <item>Guinevere the Magic Warrior</item>
+        <item>Lunox the Cosmic Harmony</item>
+        <item>Kagura the Onmyouji Master</item>
+    </string-array>
+
+    <string-array name="data_species">
+        <item>Blood Demon</item>
+        <item>Vampire</item>
+        <item>Humanoid Robot</item>
+        <item>Human</item>
+        <item>Human</item>
+        <item>Human</item>
+        <item>Witch</item>
+        <item>Human</item>
+        <item>Elf</item>
+        <item>Human</item>
+    </string-array>
+
+    <string-array name="data_weapons">
+        <item>Forbidden Power</item>
+        <item>None</item>
+        <item>None</item>
+        <item>Steel Cable</item>
+        <item>Sword of Supremacy</item>
+        <item>Dragon Tail</item>
+        <item>Frostmoon Shield</item>
+        <item>Virtuous Justice</item>
+        <item>Chaos Assault</item>
+        <item>Seimei Umbrella</item>
+    </string-array>
+
+    <string-array name="data_abilities">
+        <item>Vampire Pact</item>
+        <item>Vampire Pact</item>
+        <item>Rapid Touchdown</item>
+        <item>Steel Cable</item>
+        <item>Defiant Sword</item>
+        <item>Black Dragon Form</item>
+        <item>Frostmoon Shield</item>
+        <item>Super Magic</item>
+        <item>Order and Chaos</item>
+        <item>Seimei Umbrella</item>
+    </string-array>
+
+    <string-array name="data_height">
+        <item>185 cm</item>
+        <item>169 cm</item>
+        <item>200 cm</item>
+        <item>175 cm</item>
+        <item>168 cm</item>
+        <item>175 cm</item>
+        <item>165 cm</item>
+        <item>170 cm</item>
+        <item>160 cm</item>
+        <item>165 cm</item>
+    </string-array>
+
+    <string-array name="data_weight">
+        <item>80 kg</item>
+        <item>45 kg</item>
+        <item>300 kg</item>
+        <item>45 kg</item>
+        <item>54 kg</item>
+        <item>80 kg</item>
+        <item>55 kg</item>
+        <item>50 kg</item>
+        <item>45 kg</item>
+        <item>42 kg</item>
+    </string-array>
+
+    <string-array name="data_relationship">
+        <item>Valentina (Wife)</item>
+        <item>Valentina (Close Ally)</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>Zilong (Brother)</item>
+        <item>Zhask (Rival)</item>
+        <item>N/A</item>
+        <item>Lancelot (Ally)</item>
+        <item>Alice (Friend)</item>
+        <item>Hayabusa (Ally)</item>
+    </string-array>
+
+    <string-array name="data_longstory">
+        <item>Cecilion, also known as the Embrace of Night, was once a sorcerer-king who ruled the land with an iron fist. He was consumed by his lust for power and delved deep into forbidden magic, seeking eternal life. However, his arrogance led to his downfall. In his pursuit of immortality, he unleashed dark forces that corrupted his soul and transformed him into a vampire. Now, cursed to roam the night for eternity, Cecilion seeks redemption for his past sins while battling the darkness within him.</item>
+        <item>Carmilla, the Shadow of Twilight, was once a noblewoman revered for her beauty and grace. However, her life took a tragic turn when she fell in love with a vampire and became one herself. Cursed with eternal life, Carmilla struggles to come to terms with her newfound powers and the darkness that resides within her. Despite her longing for redemption, she is feared and misunderstood by those around her. Now, she wanders the night, searching for meaning and purpose in a world that shuns her kind.</item>
+        <item>Jhonson, the Mustang, was once a renowned racer known for his speed and agility on the track. However, his life changed forever when he was involved in a tragic accident that left him paralyzed from the waist down. Determined to overcome his disability, Jhonson turned to technology for salvation. With the help of advanced cybernetic enhancements, he was able to walk again, albeit in a different form. Now, he fights alongside his allies, using his newfound strength and resilience to protect those in need.</item>
+        <item>Fanny, the Blade Dancer, was born into a family of assassins and trained from a young age to become a deadly weapon. With her mastery of the blade and incredible agility, she is able to move with unmatched speed and precision, striking down her enemies with lethal accuracy. However, beneath her cold exterior lies a troubled soul haunted by the ghosts of her past. Despite her skills in combat, Fanny struggles to find her place in a world torn apart by war and betrayal.</item>
+        <item>Ling, the Street Ninja, grew up on the mean streets of a bustling metropolis, where survival meant mastering the art of stealth and deception. From a young age, he was trained in the ancient ways of the ninja, learning to move unseen and strike without mercy. With his trusty blade by his side, Ling roams the city is rooftops, hunting down criminals and seeking justice for the innocent. But behind his mask lies a dark secret that threatens to consume him if left unchecked.</item>
+        <item>Yuzhong, the Black Dragon, was once a noble warrior revered for his strength and valor on the battlefield. However, his life took a dark turn when he made a pact with dark forces in exchange for power. Now, corrupted by his lust for strength, Yuzhong wields dark magic to crush his enemies and bend them to his will. But with every victory, he loses a piece of his humanity, becoming more dragon than man. Now, he must confront his inner demons before they consume him entirely.</item>
+        <item>Esmeralda, the Astrologer, was born with the gift of foresight, able to glimpse into the future and unravel the mysteries of the cosmos. But her powers came with a heavy burden, as she was tasked with protecting the world from dark forces that sought to unravel the fabric of reality. With her mystical abilities and unwavering determination, Esmeralda battles against the forces of chaos, using her knowledge of the stars to guide her allies to victory. But as the darkness grows ever stronger, she must face her greatest challenge yet and confront the shadows that lurk within her own soul.</item>
+        <item>Guinevere, the Magic Knight, was once a princess of the realm, destined for greatness from birth. However, her life took a dark turn when she was betrayed by those closest to her and forced to flee into exile. With nothing left to lose, Guinevere embraced her destiny as a warrior, wielding the power of magic to fight for justice and reclaim her rightful place on the throne. But as she delves deeper into the mysteries of her past, she uncovers a dark conspiracy that threatens to destroy everything she holds dear.</item>
+        <item>Lunox, the Twilight Goddess, was born with the power to control the forces of light and darkness, a gift that made her both feared and revered by those around her. But with great power comes great responsibility, and Lunox soon found herself at the center of a cosmic struggle for control of the universe. With her dual nature as both light and dark, Lunox must navigate the treacherous waters of fate and choose a path that will determine the fate of all creation.</item>
+        <item>Kagura, the Onmyouji Master, was born into a long line of mystics and scholars, destined to inherit the secrets of the arcane arts. From a young age, she showed great promise as a prodigy in the field of onmyodo, mastering ancient spells and incantations with ease. With her mystical fan as her weapon, Kagura travels the world, battling evil spirits and dark forces that threaten to disrupt the balance of nature. But as she delves deeper into the mysteries of her craft, she uncovers a dark conspiracy that could shake the very foundations of reality.</item>
+    </string-array>
+
+    <string-array name="data_quotes">
+        <item>My Carmilla, why are you so cold and pale? Just like the moonlight</item>
+        <item>No one is more sincere than Cecilion</item>
+        <item>A pair of powerful pliers is important to fix both cars and people</item>
+        <item>My brother and I, will shoulder the family glory</item>
+        <item>It’s not everyday you see such a handsome Dragon Tamer like me</item>
+        <item>Doubt my intentions as you please, in the end, only the victor will be remembered</item>
+        <item>Death is nothing compared to my beliefs</item>
+        <item>Do you know the flower language of Matthiola Incana?</item>
+        <item>I ve been away for too long, and forgotten who I was</item>
+        <item>I believe in the goodness of people, but I’ll get to you if you upset me</item>
+    </string-array>
+
+
+
+</resources>
